@@ -1,0 +1,91 @@
+body{
+
+    background-color:white;
+    padding:5px;
+    margin:0px;
+}
+.oran {
+    position:relative;
+    font-size:x-large;
+    background-color: coral;
+    color:white;
+    box-sizing: border-box;
+    font-family: cursive;
+    padding:15px;
+    margin-bottom: 20px;
+    display:flex;
+    border-radius: 50px 50px 50px 50px;
+}
+.full{
+
+    color:rgb(14, 236, 225);
+    background-color: rgb(28, 56, 239);
+    height:50%;
+    padding:25px;
+    text-align: center;
+}
+.one,.two,.three {
+
+    color:rgb(246, 242, 247);
+    background:rgba(255, 10, 10, 0.907);
+    padding:5px;
+    display:block;
+    margin-bottom:5px;
+    border-radius:5px;  
+}
+.two h3,.three h3 {
+ 
+    color:rgb(222, 247, 114);
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:2px;
+    box-sizing: border-box;
+}
+.new{
+
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+    color:white;
+    margin-top:10px;
+    background-repeat: no-repeat;
+    padding:10px;
+}
+.g {
+    color:rgb(53, 108, 246);
+}
+.o, .e {
+
+    color:red;
+
+}
+small{
+
+    color:rgb(148, 251, 75);
+}
+.l{
+
+    color:green;
+}
+.g,.o,.e,.l{
+    font-size: xx-large;
+}
+.oran:hover{
+
+    text-shadow:2px -4px rgba(116, 117, 113, 0.801);
+}
+footer {
+
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+}
+footer:hover{
+
+    background-color: lightslategray;
+}
+
+.fo p,h3{
+
+    color:chartreuse;
+
+   
+}
