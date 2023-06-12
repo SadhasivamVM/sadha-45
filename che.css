@@ -1,0 +1,59 @@
+body {
+    
+    width:fit-content;
+    height:900px;
+    justify-content: center; 
+}
+.out {
+    position:fixed;
+    width:800px;
+    height:725px;
+    border:2px solid rgb(247, 243, 243);
+    box-shadow: 2px 3px 4px gray;
+    background-color: rgb(242, 248, 237);
+    box-sizing: border-box;
+    border:4px solid gray;
+    margin-left: 100px;   
+}
+table{
+
+    border-collapse: collapse;
+    border-color: rgba(163, 158, 158, 0.91);
+    border:3px solid black;
+}
+td {
+
+    height: 87.5px;
+    width:100px;
+    color:rgb(5, 5, 5);
+    text-align: center;
+    font-size:3em;
+}
+.black{
+    background-color: rgb(253, 155, 155);
+
+}
+.white{
+    background-color: aliceblue;
+}
+td:hover{
+
+    font-size:3.5em;
+}
+table:hover{
+
+    cursor:pointer;
+}
+sub,i {
+
+    position: absolute;
+    font-size: x-small;
+    text-align: center;
+    color:gray;
+}
+
+i {
+   
+    font-size:small;
+   
+}
