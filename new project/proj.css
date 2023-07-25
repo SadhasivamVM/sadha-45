@@ -1,0 +1,157 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    width:0px;
+}
+.out{
+    
+    width:500px;
+    height:450px;
+    border-radius: 15px;
+    display: grid;
+    margin-bottom:50px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px gray, 1px 3px 5px rgb(67, 115, 237);
+   
+    
+    
+}
+h1{
+    
+    border:3px solid rgb(178, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    color:rgb(127, 127, 130);
+    margin-left:5px;
+    width:500px;
+    height:500px;
+    
+}
+h1 p{
+    margin-top:-100px;
+    font-family: cursive;
+}
+h3{
+    display:flex;
+    justify-content: center;
+}
+ul li{
+    list-style:inside;
+    text-align: center;
+    display: block;
+    line-height: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+button{
+    position: absolute;
+    width:100px;
+    height:50px;
+    margin-top:370px;
+    margin-left:210px;
+    background-color: orange;
+    border-radius: 45px;
+    border:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(247, 246, 246);
+    transition:.5s;
+  
+
+
+
+}
+li >.app{
+   
+    width:150px;
+    height:150px;
+    margin-top:-105px;
+ 
+    
+}
+span{
+    color:red;
+}
+button:hover {
+   
+    transition: ease-in-out .6s;
+    cursor: pointer;
+    color:transparent;
+    text-align: center;
+    transform: rotateX(360deg);
+   
+    
+}
+.buy{
+    display: none;
+    color:blue;
+    font-size:small;
+    width:100%;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+button:hover .buy{
+    
+    display: block;
+    position:absolute;
+    
+}
+.form{
+    border:2px double grey;
+    width:500px;
+    height:500px;
+    
+   
+    
+}
+form{
+    display: block;
+    margin-top:-100px;
+    margin-left: 120px;
+}
+input{
+    width:250px;
+    height:30px;
+    font-family: monospace;
+    border:none;
+    box-shadow:2px 2px 4px gray, 2px 2px 2px rgb(189, 181, 181);
+    color:rgba(43, 18, 18, 0.711);
+    margin-bottom: 25px;
+    background-color: rgb(241, 241, 241);
+
+}
+label{
+ 
+ 
+ font-family:sans-serif;
+ display: block;
+ 
+ 
+}
+.feed{
+    border:none;
+    display: flex;
+    justify-content: center;
+    margin-top: -220px;
+}
+input:focus{
+    color:red;
+    
+}
+.btn{
+       
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px green;
+}
+
+footer{
+    width:505px;
+    height:100px;
+    background-color: rgb(205, 200, 200);
+    text-align: center;
+}
