@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin:auto;
+    }
+    #box{
+        width:412px;
+        height:915px;
+        border:2px solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        
+    }
+    #ball{
+        background-color: red;
+        width:25px;
+        height:25px;
+        border-radius:50px;
+        position:absolute;
+       
+    }
+
+</style>
+<body>
+    <div id="box">
+        <div id="ball">
+            
+        </div>  
+    </div>
+<script>
+    const game = document.getElementById("box");
+    const gball = document.getElementById("ball");
+
+    let sX,sY;
+
+    game.addEventListener("touchstart",function(e){
+        const touch = e.changedTouches[0];
+        sX = touch.clientX
+        sY = touch.clientY
+       
+        
+    })
+    game.addEventListener("touchmove",function(e){
+        const touch = e.changedTouches[0];
+        const diffX = touch.clientX - sX;
+        const diffY = touch.clientY - sY;
+        ball.style.left=Math.max(0,Math.min(412,ball.offsetLeft + diffX)) + "px";
+        ball.style.top=Math.max(0,Math.min(914,ball.offsetTop + diffY)) + "px";
+        sX = touch.clientX;
+        sY = touch.clientY;
+        game.style.backgroundColor= ball.backgroundColor
+        e.preventDefault();
+       
+        
+    })
+  
+</script>
+</body>
+</html>
